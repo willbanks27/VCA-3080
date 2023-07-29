@@ -1563,7 +1563,6 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <sheets>
 <sheet>
 <plain>
-<frame x1="-119.38" y1="-76.2" x2="109.22" y2="58.42" columns="16" rows="8" layer="94"/>
 </plain>
 <instances>
 <instance part="IN" gate="J" x="-104.14" y="40.64" smashed="yes">
