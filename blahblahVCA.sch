@@ -692,127 +692,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="wb-ota">
-<packages>
-<package name="DIL08">
-<wire x1="4.572" y1="2.921" x2="-4.445" y2="2.921" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-2.921" x2="4.572" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="4.572" y1="2.921" x2="4.572" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="2.921" x2="-4.445" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-2.921" x2="-4.445" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="0.635" x2="-4.445" y2="-0.635" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-3.81" y1="-3.81" x2="-3.81" y2="-3.175" width="0.6096" layer="51"/>
-<wire x1="-1.27" y1="-3.81" x2="-1.27" y2="-3.175" width="0.6096" layer="51"/>
-<wire x1="1.27" y1="-3.81" x2="1.27" y2="-3.175" width="0.6096" layer="51"/>
-<wire x1="3.81" y1="-3.81" x2="3.81" y2="-3.175" width="0.6096" layer="51"/>
-<pad name="1" x="-3.81" y="-3.81" drill="0.7" shape="square" rot="R90"/>
-<pad name="2" x="-1.27" y="-3.81" drill="0.7" rot="R90"/>
-<pad name="7" x="-1.27" y="3.81" drill="0.7" rot="R90"/>
-<pad name="8" x="-3.81" y="3.81" drill="0.7" rot="R90"/>
-<pad name="3" x="1.27" y="-3.81" drill="0.7" rot="R90"/>
-<pad name="4" x="3.81" y="-3.81" drill="0.7" rot="R90"/>
-<pad name="6" x="1.27" y="3.81" drill="0.7" rot="R90"/>
-<pad name="5" x="3.81" y="3.81" drill="0.7" rot="R90"/>
-<wire x1="3.81" y1="3.175" x2="3.81" y2="3.81" width="0.6096" layer="51"/>
-<wire x1="-3.81" y1="3.81" x2="-3.81" y2="3.175" width="0.6096" layer="51"/>
-<wire x1="-1.27" y1="3.81" x2="-1.27" y2="3.175" width="0.6096" layer="51"/>
-<wire x1="1.27" y1="3.81" x2="1.27" y2="3.175" width="0.6096" layer="51"/>
-<text x="-5.72" y="0" size="1.016" layer="25" ratio="10" rot="SR90" align="center">&gt;NAME</text>
-<text x="-2.54" y="0" size="1.016" layer="27" ratio="10" rot="SR0" align="center-left">&gt;VALUE</text>
-</package>
-<package name="SO08">
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="21"/>
-<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<text x="-1.91" y="0" size="0.6096" layer="27" rot="R180" align="center-right">&gt;VALUE</text>
-<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="21"/>
-<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="21"/>
-<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="21"/>
-<text x="-3.17" y="0" size="0.6096" layer="25" ratio="10" rot="SR90" align="center">&gt;NAME</text>
-<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="21"/>
-<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="21"/>
-<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="21"/>
-<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="21"/>
-<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="21"/>
-<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="21"/>
-<circle x="-1.905" y="-0.635" radius="0.254" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="TYP-OTA">
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="0" x2="-2.54" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="3.175" x2="-1.27" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="94"/>
-<pin name="INVERTING(-)" x="-5.08" y="-2.54" visible="pad" length="short" direction="in" swaplevel="1"/>
-<pin name="NON-INVERTING(+)" x="-5.08" y="2.54" visible="pad" length="short" direction="in"/>
-<pin name="OUT" x="12.7" y="0" visible="pad" length="point" direction="out" rot="R180"/>
-<text x="-2.54" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<circle x="8.89" y="0" radius="1.127759375" width="0.1524" layer="94"/>
-<circle x="10.16" y="0" radius="1.127759375" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="0" x2="11.303" y2="0" width="0.1524" layer="94"/>
-<pin name="I-BIAS" x="10.16" y="2.54" visible="pad" length="point" direction="in" swaplevel="3" rot="R270"/>
-<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<wire x1="10.16" y1="2.54" x2="10.16" y2="1.143" width="0.1524" layer="94"/>
-</symbol>
-<symbol name="TYP-PWR">
-<pin name="V+" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
-<pin name="V-" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<text x="2.54" y="6.35" size="1.778" layer="97" align="center">+</text>
-<text x="2.54" y="-6.35" size="1.778" layer="97" align="center">-</text>
-<text x="2.54" y="1.27" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CA3080" prefix="IC">
-<description>http://www.elde.cz/datasht/ca3080.pdf</description>
-<gates>
-<gate name="A" symbol="TYP-OTA" x="7.62" y="0"/>
-<gate name="B" symbol="TYP-PWR" x="-7.62" y="0"/>
-</gates>
-<devices>
-<device name="D" package="DIL08">
-<connects>
-<connect gate="A" pin="I-BIAS" pad="5"/>
-<connect gate="A" pin="INVERTING(-)" pad="2"/>
-<connect gate="A" pin="NON-INVERTING(+)" pad="3"/>
-<connect gate="A" pin="OUT" pad="6"/>
-<connect gate="B" pin="V+" pad="7"/>
-<connect gate="B" pin="V-" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="S" package="SO08">
-<connects>
-<connect gate="A" pin="I-BIAS" pad="5"/>
-<connect gate="A" pin="INVERTING(-)" pad="2"/>
-<connect gate="A" pin="NON-INVERTING(+)" pad="3"/>
-<connect gate="A" pin="OUT" pad="6"/>
-<connect gate="B" pin="V+" pad="7"/>
-<connect gate="B" pin="V-" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="wb-opamps">
 <packages>
 <package name="DIL08">
@@ -1506,6 +1385,102 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 </deviceset>
 </devicesets>
 </library>
+<library name="wb-ota">
+<packages>
+<package name="DIL08">
+<wire x1="4.572" y1="2.921" x2="-4.445" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-2.921" x2="4.572" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="4.572" y1="2.921" x2="4.572" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="2.921" x2="-4.445" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-2.921" x2="-4.445" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="0.635" x2="-4.445" y2="-0.635" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-3.81" y1="-3.81" x2="-3.81" y2="-3.175" width="0.6096" layer="51"/>
+<wire x1="-1.27" y1="-3.81" x2="-1.27" y2="-3.175" width="0.6096" layer="51"/>
+<wire x1="1.27" y1="-3.81" x2="1.27" y2="-3.175" width="0.6096" layer="51"/>
+<wire x1="3.81" y1="-3.81" x2="3.81" y2="-3.175" width="0.6096" layer="51"/>
+<pad name="1" x="-3.81" y="-3.81" drill="0.7" shape="square" rot="R90"/>
+<pad name="2" x="-1.27" y="-3.81" drill="0.7" rot="R90"/>
+<pad name="7" x="-1.27" y="3.81" drill="0.7" rot="R90"/>
+<pad name="8" x="-3.81" y="3.81" drill="0.7" rot="R90"/>
+<pad name="3" x="1.27" y="-3.81" drill="0.7" rot="R90"/>
+<pad name="4" x="3.81" y="-3.81" drill="0.7" rot="R90"/>
+<pad name="6" x="1.27" y="3.81" drill="0.7" rot="R90"/>
+<pad name="5" x="3.81" y="3.81" drill="0.7" rot="R90"/>
+<wire x1="3.81" y1="3.175" x2="3.81" y2="3.81" width="0.6096" layer="51"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="3.175" width="0.6096" layer="51"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="3.175" width="0.6096" layer="51"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="3.175" width="0.6096" layer="51"/>
+<text x="-5.72" y="0" size="1.016" layer="25" ratio="10" rot="SR90" align="center">&gt;NAME</text>
+<text x="-2.54" y="0" size="1.016" layer="27" ratio="10" rot="SR0" align="center-left">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TYP-OTA.DBI">
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="0" x2="-2.54" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="3.175" x2="-1.27" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="94"/>
+<pin name="INVERTING(-)" x="-5.08" y="-2.54" visible="pad" length="short" direction="in" swaplevel="1"/>
+<pin name="NON-INVERTING(+)" x="-5.08" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="12.7" y="0" visible="pad" length="point" direction="out" rot="R180"/>
+<text x="-2.54" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<circle x="8.89" y="0" radius="1.127759375" width="0.1524" layer="94"/>
+<circle x="10.16" y="0" radius="1.127759375" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="0" x2="11.43" y2="0" width="0.1524" layer="94"/>
+<pin name="I-BIAS" x="10.16" y="2.54" visible="pad" length="point" direction="in" swaplevel="3" rot="R270"/>
+<pin name="D-BIAS" x="-5.08" y="0" visible="pad" length="short" direction="in" swaplevel="4"/>
+<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<polygon width="0.254" layer="94">
+<vertex x="-2.54" y="-1.905"/>
+<vertex x="-1.778" y="-0.635"/>
+<vertex x="-3.302" y="-0.635"/>
+</polygon>
+<wire x1="-1.778" y1="-2.032" x2="-3.302" y2="-2.032" width="0.1524" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-2.54" y="1.905"/>
+<vertex x="-3.302" y="0.635"/>
+<vertex x="-1.778" y="0.635"/>
+</polygon>
+<wire x1="-3.302" y1="2.032" x2="-1.778" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="1.143" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="TYP-PWR">
+<pin name="V+" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
+<pin name="V-" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
+<text x="2.54" y="6.35" size="1.778" layer="97" align="center">+</text>
+<text x="2.54" y="-6.35" size="1.778" layer="97" align="center">-</text>
+<text x="2.54" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AS3080" prefix="IC">
+<description>http://www.alfarzpp.lv/eng/sc/AS3080E.pdf</description>
+<gates>
+<gate name="A" symbol="TYP-OTA.DBI" x="7.62" y="0"/>
+<gate name="B" symbol="TYP-PWR" x="-7.62" y="0"/>
+</gates>
+<devices>
+<device name="D" package="DIL08">
+<connects>
+<connect gate="A" pin="D-BIAS" pad="1"/>
+<connect gate="A" pin="I-BIAS" pad="5"/>
+<connect gate="A" pin="INVERTING(-)" pad="2"/>
+<connect gate="A" pin="NON-INVERTING(+)" pad="3"/>
+<connect gate="A" pin="OUT" pad="6"/>
+<connect gate="B" pin="V+" pad="7"/>
+<connect gate="B" pin="V-" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1518,7 +1493,6 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <parts>
 <part name="IN" library="wb-jacks" deviceset="MONO" device="301M"/>
 <part name="R1" library="wb-rcl" deviceset="R" device="-1206" value="100k"/>
-<part name="IC1" library="wb-ota" deviceset="CA3080" device="D"/>
 <part name="IC2" library="wb-opamps" deviceset="RC4558" device="D"/>
 <part name="Q1" library="wb-transistors" deviceset="BCM847DS" device=""/>
 <part name="R2" library="wb-rcl" deviceset="R" device="-1206" value="100"/>
@@ -1553,12 +1527,13 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <part name="P-1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-12V" device=""/>
 <part name="IN.G" library="wb-potswitch" deviceset="P" device="ALPHA" value="10k"/>
 <part name="CV.G" library="wb-potswitch" deviceset="P" device="ALPHA" value="10k"/>
-<part name="C5" library="wb-rcl" deviceset="C" device="-05" value="1uF"/>
+<part name="C4" library="wb-rcl" deviceset="C" device="-05" value="1uF"/>
 <part name="R4" library="wb-rcl" deviceset="R" device="-1206" value="100k"/>
 <part name="C1" library="wb-rcl" deviceset="C" device="-05" value="1uF"/>
 <part name="R5" library="wb-rcl" deviceset="R" device="-1206" value="100k"/>
 <part name="R6" library="wb-rcl" deviceset="R" device="-1206" value="100k"/>
 <part name="IC3" library="wb-opamps" deviceset="CA3130" device="D"/>
+<part name="IC1" library="wb-ota" deviceset="AS3080" device="D"/>
 </parts>
 <sheets>
 <sheet>
@@ -1572,14 +1547,6 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <instance part="R1" gate="R" x="-30.48" y="33.02" smashed="yes">
 <attribute name="NAME" x="-33.02" y="35.56" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-33.02" y="29.21" size="1.778" layer="96"/>
-</instance>
-<instance part="IC1" gate="A" x="-5.08" y="30.48" smashed="yes" rot="MR180">
-<attribute name="NAME" x="-7.62" y="36.83" size="1.778" layer="95" rot="MR180" align="top-left"/>
-<attribute name="VALUE" x="-7.62" y="22.86" size="1.778" layer="96"/>
-</instance>
-<instance part="IC1" gate="B" x="43.18" y="-53.34" smashed="yes">
-<attribute name="NAME" x="45.72" y="-52.07" size="1.778" layer="95"/>
-<attribute name="VALUE" x="45.72" y="-55.88" size="1.778" layer="96"/>
 </instance>
 <instance part="IC2" gate="A" x="17.78" y="15.24" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="15.24" y="7.62" size="1.778" layer="96"/>
@@ -1710,7 +1677,7 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <attribute name="NAME" x="-93.98" y="-22.86" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-93.98" y="-25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="C5" gate="C" x="-83.82" y="43.18" smashed="yes" rot="R90">
+<instance part="C4" gate="C" x="-83.82" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="-85.09" y="49.53" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-85.09" y="46.99" size="1.778" layer="96"/>
 </instance>
@@ -1737,6 +1704,14 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <instance part="IC3" gate="B" x="78.74" y="-53.34" smashed="yes">
 <attribute name="NAME" x="81.28" y="-52.07" size="1.778" layer="95"/>
 <attribute name="VALUE" x="81.28" y="-55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="IC1" gate="A" x="-5.08" y="30.48" smashed="yes" rot="MR180">
+<attribute name="NAME" x="-7.62" y="36.83" size="1.778" layer="95" rot="MR180" align="top-left"/>
+<attribute name="VALUE" x="-7.62" y="22.86" size="1.778" layer="96"/>
+</instance>
+<instance part="IC1" gate="B" x="43.18" y="-53.34" smashed="yes">
+<attribute name="NAME" x="45.72" y="-52.07" size="1.778" layer="95"/>
+<attribute name="VALUE" x="45.72" y="-55.88" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -1810,17 +1785,8 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <junction x="-86.36" y="-50.8"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="A" pin="NON-INVERTING(+)"/>
-<wire x1="-10.16" y1="27.94" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="27.94" x2="-12.7" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="R2" gate="R" pin="1"/>
-<wire x1="-20.32" y1="17.78" x2="-20.32" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="17.78" x2="-20.32" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="17.78" x2="-20.32" y2="17.78" width="0.1524" layer="91"/>
-<junction x="-20.32" y="17.78"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="-33.02" y1="15.24" x2="-33.02" y2="17.78" width="0.1524" layer="91"/>
-<junction x="-33.02" y="17.78"/>
 <wire x1="-33.02" y1="17.78" x2="-43.18" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="17.78" x2="-71.12" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="17.78" x2="-71.12" y2="30.48" width="0.1524" layer="91"/>
@@ -1828,6 +1794,15 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <wire x1="-43.18" y1="25.4" x2="-43.18" y2="17.78" width="0.1524" layer="91"/>
 <junction x="-43.18" y="17.78"/>
 <pinref part="R4" gate="R" pin="1"/>
+<pinref part="R2" gate="R" pin="1"/>
+<pinref part="IC1" gate="A" pin="NON-INVERTING(+)"/>
+<wire x1="-10.16" y1="27.94" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="27.94" x2="-12.7" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="17.78" x2="-20.32" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="17.78" x2="-20.32" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="17.78" x2="-33.02" y2="17.78" width="0.1524" layer="91"/>
+<junction x="-20.32" y="17.78"/>
+<junction x="-33.02" y="17.78"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -1836,14 +1811,13 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <pinref part="R2" gate="R" pin="2"/>
 <wire x1="-25.4" y1="33.02" x2="-20.32" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="33.02" x2="-20.32" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="INVERTING(-)"/>
 <wire x1="-10.16" y1="33.02" x2="-20.32" y2="33.02" width="0.1524" layer="91"/>
 <junction x="-20.32" y="33.02"/>
+<pinref part="IC1" gate="A" pin="INVERTING(-)"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="IC1" gate="A" pin="OUT"/>
 <pinref part="R3" gate="R" pin="1"/>
 <wire x1="15.24" y1="30.48" x2="10.16" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="INVERTING(-)"/>
@@ -1851,6 +1825,7 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <wire x1="12.7" y1="17.78" x2="10.16" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="17.78" x2="10.16" y2="30.48" width="0.1524" layer="91"/>
 <junction x="10.16" y="30.48"/>
+<pinref part="IC1" gate="A" pin="OUT"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -1888,7 +1863,6 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <pinref part="IC2" gate="C" pin="V+"/>
 <wire x1="60.96" y1="-45.72" x2="60.96" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="-43.18" x2="43.18" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="B" pin="V+"/>
 <wire x1="43.18" y1="-43.18" x2="43.18" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-45.72" x2="78.74" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-43.18" x2="60.96" y2="-43.18" width="0.1524" layer="91"/>
@@ -1897,11 +1871,11 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <junction x="78.74" y="-43.18"/>
 <pinref part="P+1" gate="1" pin="+12V"/>
 <pinref part="IC3" gate="B" pin="V+"/>
+<pinref part="IC1" gate="B" pin="V+"/>
 </segment>
 </net>
 <net name="-12V" class="0">
 <segment>
-<pinref part="IC1" gate="B" pin="V-"/>
 <wire x1="43.18" y1="-60.96" x2="43.18" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-63.5" x2="60.96" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="-63.5" x2="78.74" y2="-63.5" width="0.1524" layer="91"/>
@@ -1913,6 +1887,7 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <wire x1="40.64" y1="-63.5" x2="43.18" y2="-63.5" width="0.1524" layer="91"/>
 <junction x="43.18" y="-63.5"/>
 <pinref part="IC3" gate="B" pin="V-"/>
+<pinref part="IC1" gate="B" pin="V-"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="-V"/>
@@ -2044,11 +2019,11 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <pinref part="Q1" gate="A" pin="E"/>
 <pinref part="Q1" gate="B" pin="C"/>
 <wire x1="-2.54" y1="-38.1" x2="-2.54" y2="-35.56" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="I-BIAS"/>
 <wire x1="-2.54" y1="-35.56" x2="-2.54" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="27.94" x2="5.08" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-35.56" x2="-2.54" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="-2.54" y="-35.56"/>
+<pinref part="IC1" gate="A" pin="I-BIAS"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -2061,7 +2036,7 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="C5" gate="C" pin="1"/>
+<pinref part="C4" gate="C" pin="1"/>
 <pinref part="IN" gate="J" pin="TIP-SIG"/>
 <wire x1="-86.36" y1="43.18" x2="-101.6" y2="43.18" width="0.1524" layer="91"/>
 </segment>
@@ -2069,7 +2044,7 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <net name="N$20" class="0">
 <segment>
 <wire x1="-71.12" y1="40.64" x2="-71.12" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C5" gate="C" pin="2"/>
+<pinref part="C4" gate="C" pin="2"/>
 <wire x1="-71.12" y1="43.18" x2="-78.74" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="IN.G" gate="P" pin="3"/>
 <wire x1="-43.18" y1="40.64" x2="-43.18" y2="43.18" width="0.1524" layer="91"/>
