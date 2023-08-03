@@ -3231,8 +3231,8 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <attribute name="NAME" x="81.28" y="33.02" size="1.778" layer="95"/>
 <attribute name="VALUE" x="81.28" y="26.67" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="-99.06" y="33.02" smashed="yes">
-<attribute name="VALUE" x="-101.6" y="30.48" size="1.778" layer="96"/>
+<instance part="GND7" gate="1" x="-96.52" y="33.02" smashed="yes">
+<attribute name="VALUE" x="-99.06" y="30.48" size="1.778" layer="96"/>
 </instance>
 <instance part="GND8" gate="1" x="88.9" y="20.32" smashed="yes">
 <attribute name="VALUE" x="86.36" y="17.78" size="1.778" layer="96"/>
@@ -3240,13 +3240,13 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <instance part="P-2" gate="1" x="38.1" y="-63.5" smashed="yes" rot="R270">
 <attribute name="VALUE" x="35.56" y="-63.5" size="1.778" layer="96" align="center-right"/>
 </instance>
-<instance part="R9" gate="R" x="-81.28" y="-25.4" smashed="yes">
-<attribute name="NAME" x="-83.82" y="-22.86" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-83.82" y="-29.21" size="1.778" layer="96"/>
+<instance part="R9" gate="R" x="-76.2" y="-25.4" smashed="yes">
+<attribute name="NAME" x="-78.74" y="-22.86" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-78.74" y="-29.21" size="1.778" layer="96"/>
 </instance>
-<instance part="R10" gate="R" x="-88.9" y="-43.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="-96.52" y="-41.91" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-96.52" y="-44.45" size="1.778" layer="96"/>
+<instance part="R10" gate="R" x="-86.36" y="-43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="-93.98" y="-41.91" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-93.98" y="-44.45" size="1.778" layer="96"/>
 </instance>
 <instance part="GND10" gate="1" x="-66.04" y="-55.88" smashed="yes">
 <attribute name="VALUE" x="-68.58" y="-58.42" size="1.778" layer="96"/>
@@ -3319,21 +3319,21 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <attribute name="NAME" x="45.72" y="-52.07" size="1.778" layer="95"/>
 <attribute name="VALUE" x="45.72" y="-55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="D" x="-88.9" y="-33.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="-93.98" y="-33.02" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-85.09" y="-35.56" size="1.778" layer="96" rot="R90"/>
+<instance part="D1" gate="D" x="-86.36" y="-33.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="-91.44" y="-33.02" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-82.55" y="-35.56" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D2" gate="D" x="-25.4" y="-33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="-30.48" y="-33.02" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-21.59" y="-35.56" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IN.HDR" gate="J" x="-104.14" y="40.64" smashed="yes">
-<attribute name="NAME" x="-111.76" y="44.45" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-111.76" y="46.99" size="1.778" layer="96"/>
+<instance part="IN.HDR" gate="J" x="-101.6" y="40.64" smashed="yes">
+<attribute name="NAME" x="-109.22" y="44.45" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-109.22" y="46.99" size="1.778" layer="96"/>
 </instance>
-<instance part="CV.HDR" gate="J" x="-104.14" y="-27.94" smashed="yes">
-<attribute name="NAME" x="-111.76" y="-24.13" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-111.76" y="-21.59" size="1.778" layer="96"/>
+<instance part="CV.HDR" gate="J" x="-101.6" y="-27.94" smashed="yes">
+<attribute name="NAME" x="-109.22" y="-24.13" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-109.22" y="-21.59" size="1.778" layer="96"/>
 </instance>
 <instance part="OUT.HDR" gate="J" x="93.98" y="27.94" smashed="yes" rot="MR0">
 <attribute name="NAME" x="101.6" y="31.75" size="1.778" layer="95" rot="MR0"/>
@@ -3343,7 +3343,7 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <attribute name="NAME" x="-55.88" y="35.56" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-55.88" y="33.02" size="1.778" layer="96"/>
 </instance>
-<instance part="U$2" gate="G$1" x="-111.76" y="53.34" smashed="yes"/>
+<instance part="U$2" gate="G$1" x="-109.22" y="17.78" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -3379,8 +3379,8 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="-99.06" y1="35.56" x2="-99.06" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-99.06" y1="38.1" x2="-101.6" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="35.56" x2="-96.52" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="38.1" x2="-99.06" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="IN.HDR" gate="J" pin="SLEEVE-GND"/>
 </segment>
 <segment>
@@ -3404,14 +3404,14 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <wire x1="-2.54" y1="-50.8" x2="-2.54" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-50.8" x2="-25.4" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="-25.4" y="-50.8"/>
-<wire x1="-99.06" y1="-50.8" x2="-88.9" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="-88.9" y1="-50.8" x2="-66.04" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="-101.6" y1="-30.48" x2="-99.06" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-99.06" y1="-30.48" x2="-99.06" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="-50.8" x2="-86.36" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="-50.8" x2="-66.04" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="-30.48" x2="-96.52" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="-30.48" x2="-96.52" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="CV.HDR" gate="J" pin="SLEEVE-GND"/>
 <pinref part="R10" gate="R" pin="1"/>
-<wire x1="-88.9" y1="-48.26" x2="-88.9" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="-88.9" y="-50.8"/>
+<wire x1="-86.36" y1="-48.26" x2="-86.36" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="-86.36" y="-50.8"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -3584,7 +3584,7 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <net name="N$11" class="0">
 <segment>
 <pinref part="R9" gate="R" pin="2"/>
-<wire x1="-66.04" y1="-25.4" x2="-76.2" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="-25.4" x2="-71.12" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="-25.4" x2="-66.04" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="-66.04" y="-25.4"/>
 <pinref part="R15" gate="R" pin="1"/>
@@ -3669,26 +3669,26 @@ https://www.renesas.com/us/en/document/dst/ca3130-ca3130a-datasheet</description
 <net name="N$10" class="0">
 <segment>
 <pinref part="R9" gate="R" pin="1"/>
-<wire x1="-101.6" y1="-25.4" x2="-88.9" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="-25.4" x2="-86.36" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="CV.HDR" gate="J" pin="TIP-SIG"/>
 <pinref part="D1" gate="D" pin="C"/>
-<wire x1="-88.9" y1="-25.4" x2="-86.36" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="-88.9" y1="-30.48" x2="-88.9" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="-88.9" y="-25.4"/>
+<wire x1="-86.36" y1="-25.4" x2="-81.28" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="-30.48" x2="-86.36" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="-86.36" y="-25.4"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="IN.HDR" gate="J" pin="TIP-SIG"/>
 <pinref part="C4" gate="C" pin="1"/>
-<wire x1="-101.6" y1="43.18" x2="-86.36" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="43.18" x2="-86.36" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="R10" gate="R" pin="2"/>
 <pinref part="D1" gate="D" pin="A"/>
-<wire x1="-88.9" y1="-38.1" x2="-88.9" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="-38.1" x2="-86.36" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
